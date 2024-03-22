@@ -18,6 +18,7 @@ this plugin was made with firefox, no idea how to do so on chrome.
 
 current todo list:
 
+- [ ] add local storage saving for settings/config
 - [ ] fix crashing
 - [ ] make the addon only run after a scroll
 - [ ] make it so the tweet is actually in the collapsed thing
@@ -36,10 +37,12 @@ semi-likely:
 - [ ] chrome version
 - [ ] toggle to "bring back old twitter" (replace logos)
 - [ ] make square brand icons circlular
+- [ ] hide twitter blue "spaces" due to the pop-up being annoying and messing with timeline
+- [ ] "minimalize twitter" (hide grok, lists, communities, premium, && community notes)
 
 unlikely:
 
 - [ ] ad hiding feature
 - [ ] custom theme for twitter
 
-### if you use this add-on you should pay for twitter in some way as nothing in this world is free
+### ➡️➡️➡️ if you use this add-on you should pay for twitter in some way as nothing in this world is free ⬅️⬅️⬅️
