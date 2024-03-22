@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        here is a div i want to be the parent
+    </div>
+    <div class="
+        r-4qtqp9
+        r-yyyyoo
+        r-1xvli5t
+        r-bnwqim
+        r-1plcrui
+        r-lrvibr
+        r-f9ja8p
+        r-og9te1
+        r-9cviqr
+    ">
+        here is a div i want to be a child
+    </div>
+    <div aria-label="Verified account" class=" r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-1plcrui r-lrvibr r-f9ja8p
+        r-og9te1 r-9cviqr ">
+        here is a div i want to be a child
+    </div>
+</body>
+
+<style>
+    * {
+        background-color: black;
+        color: white;
+    }
+</style>
+
+
+<script>
+    window.onload = function () {
+        const timeMS = 3000;
+
+        setInterval(function () {fDaBrands()}, timeMS);
+    };
+
+    function fDaBrands() {
+        console.log(" 🦊 ");
+
+        let url = window.location.href.toString();
+
+        console.log(" 🦊 URL: " + url);
+
+        if (true) {
+            console.warn(" 🦊 TWITTER DETECTED"); const d = document; /* const fuArr=[ "r-4qtqp9" , "r-yyyyoo"
+        , "r-1xvli5t" , "r-bnwqim" , "r-1plcrui" , "r-lrvibr" , "r-f9ja8p" , "r-og9te1" , "r-9cviqr" ];
+        console.log( " 🦊 fuArr.join('.'): " + fuArr.join(".") ); */ let
+                elements = document.querySelectorAll(`[aria-label="Verified account"]`); console.log("elements.length: " + elements.length);
+
+            for (let i = 0; i < elements.length; ++i) {
+                console.log(" 🦊 looping"); try {
+                    elements.forEach((e) => {
+                        console.log(" 🦊 compressing element" + e);
+                        //declare parent block
+                        let elem = d.createElement("details");
+                        let summary = d.createElement("summary");
+                        summary.textContent = "another pointless brand tweet";
+                        elem.appendChild(summary);
+                        elem.appendChild(e.cloneNode(true)); // Clone the original element
+                        e.parentElement.appendChild(elem); // Append the new details element
+                        e.remove(); // Remove the original element
+                    });
+                } catch (err) {
+                    console.warn(" 🦊 THERE WAS AN ERR" + err);
+                }
+            };
+        }
+
+        console.log(" 🦊 END OF SCRIPT");
+    };
+
+</script>
+
+</html>

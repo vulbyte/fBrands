@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "sCILENCEbRAND",
+  "version": "0.0",
+
+  "description": "hides all brands... ✨magically✨",
+
+
+  "content_scripts": [
+    {
+      "matches": [
+          "*://*.twitter.com/*", 
+          "*://*.x.com/*"
+      ],
+      "js": ["fBrands.js"]
+    }
+  ],
+
+  "browser_specific_settings": {
+      "gecko": {
+        "id": "fBrands@example.com"
+      }
+    }
+
+}
+
